@@ -1,0 +1,38 @@
+.education-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.education-section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.education-card {
+    background: #eddeaf;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 20px yellow;
+}
+
+.education-card h3 {
+    margin: 0;
+    color: #007bff;
+}
+
+.education-card p {
+    margin: 5px 0;
+    color: #555;
+}
